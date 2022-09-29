@@ -4,7 +4,7 @@ export const AgeChecker = () => {
   const [age, setAge] = useState();
   return (
     <div>
-      <h1>enter your age </h1>
+      <h2>enter your age </h2>
       <input
         type="number"
         value={age}
