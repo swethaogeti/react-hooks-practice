@@ -1,6 +1,7 @@
 import "./styles.css";
 import { AddAndSub } from "./useState-excercise/AddAndSub";
 import { AgeChecker } from "./useState-excercise/AgeChecker";
+
 import { ColorOfText } from "./useState-excercise/ColorOfText";
 import { PasswordMatcher } from "./useState-excercise/PasswordMatcher";
 import { TwitterCharCount } from "./useState-excercise/TwitterCharCount";
@@ -12,7 +13,7 @@ export default function App() {
       {/* <AddAndSub/> */}
       {/* <ColorOfText /> */}
       {/* <TwitterCharCount /> */}
-      <PasswordMatcher />
+      {/* <PasswordMatcher /> */}
     </div>
   );
 }
