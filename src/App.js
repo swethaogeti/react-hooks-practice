@@ -7,6 +7,7 @@ import { PasswordMatcher } from "./useState-excercise/PasswordMatcher";
 import { TwitterCharCount } from "./useState-excercise/TwitterCharCount";
 import { ShowPassword } from "./useState-excercise/ShowPassword";
 import { DesignerTool } from "./useState-excercise/DesignerTool";
+import { AddToCart } from "./useState-excercise/AddToCart";
 export default function App() {
   return (
     <div className="App">
@@ -17,7 +18,8 @@ export default function App() {
       {/* <PasswordMatcher /> */}
       {/* <Disablesubmit /> */}
       {/* <ShowPassword /> */}
-      <DesignerTool />
+      {/* <DesignerTool /> */}
+      <AddToCart />
     </div>
   );
 }
