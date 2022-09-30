@@ -6,6 +6,7 @@ import { Disablesubmit } from "./useState-excercise/DisableSubmit";
 import { PasswordMatcher } from "./useState-excercise/PasswordMatcher";
 import { TwitterCharCount } from "./useState-excercise/TwitterCharCount";
 import { ShowPassword } from "./useState-excercise/ShowPassword";
+import { DesignerTool } from "./useState-excercise/DesignerTool";
 export default function App() {
   return (
     <div className="App">
@@ -15,7 +16,8 @@ export default function App() {
       {/* <TwitterCharCount /> */}
       {/* <PasswordMatcher /> */}
       {/* <Disablesubmit /> */}
-      <ShowPassword />
+      {/* <ShowPassword /> */}
+      <DesignerTool />
     </div>
   );
 }
