@@ -8,6 +8,7 @@ import { TwitterCharCount } from "./useState-excercise/TwitterCharCount";
 import { ShowPassword } from "./useState-excercise/ShowPassword";
 import { DesignerTool } from "./useState-excercise/DesignerTool";
 import { AddToCart } from "./useState-excercise/AddToCart";
+import { DarkMode } from "./useState-excercise/DarkMode";
 export default function App() {
   return (
     <div className="App">
@@ -19,7 +20,8 @@ export default function App() {
       {/* <Disablesubmit /> */}
       {/* <ShowPassword /> */}
       {/* <DesignerTool /> */}
-      <AddToCart />
+      {/* <AddToCart /> */}
+      <DarkMode />
     </div>
   );
 }
