@@ -10,6 +10,7 @@ import { DesignerTool } from "./useState-excercise/DesignerTool";
 import { AddToCart } from "./useState-excercise/AddToCart";
 import { DarkMode } from "./useState-excercise/DarkMode";
 import { AddToDo } from "./useState-excercise/AddToDo";
+import { BrandFilter } from "./practiceSet-1/BrandFilter";
 export default function App() {
   return (
     <div className="App">
@@ -23,7 +24,8 @@ export default function App() {
       {/* <DesignerTool /> */}
       {/* <AddToCart /> */}
       {/* <DarkMode /> */}
-      <AddToDo />
+      {/* <AddToDo /> */}
+      <BrandFilter />
     </div>
   );
 }
