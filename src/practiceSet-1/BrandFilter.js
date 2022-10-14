@@ -15,15 +15,7 @@ export const BrandFilter = () => {
         value={searchFilter}
         onChange={(e) => setSearcgFilter(e.target.value)}
       />
-      {/* {brands1.filter((brand)=>{
-        if(seachFilter===''){
-          return brand
-        }else if(brand.brandName.toLocaleLowerCase().includes(seachFilter.toLocaleLowerCase())){
-          return brand;
-        }
-      }). map((brand) => {
-        return <li key={brand.id}>{brand.brandName}</li>;
-      })} */}
+
       {brands1
         .filter((brand) => {
           if (searchFilter === "") {
