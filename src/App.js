@@ -13,6 +13,7 @@ import { AddToDo } from "./useState-excercise/AddToDo";
 import { BrandFilter } from "./practiceSet-1/BrandFilter";
 import { ToDOList } from "./practiceSet-1/ToDoList";
 import { DisplayHelloHi } from "./practiceSet-1/DisplayHelloHi";
+import { CarList } from "./practiceSet-1/CarList";
 export default function App() {
   return (
     <div className="App">
@@ -29,7 +30,8 @@ export default function App() {
       {/* <AddToDo /> */}
       {/* <BrandFilter /> */}
       {/* <ToDOList /> */}
-      <DisplayHelloHi />
+      {/* <DisplayHelloHi /> */}
+      <CarList />
     </div>
   );
 }
