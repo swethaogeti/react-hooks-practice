@@ -11,6 +11,7 @@ import { AddToCart } from "./useState-excercise/AddToCart";
 import { DarkMode } from "./useState-excercise/DarkMode";
 import { AddToDo } from "./useState-excercise/AddToDo";
 import { BrandFilter } from "./practiceSet-1/BrandFilter";
+import { ToDOList } from "./practiceSet-1/ToDoList";
 export default function App() {
   return (
     <div className="App">
@@ -25,7 +26,8 @@ export default function App() {
       {/* <AddToCart /> */}
       {/* <DarkMode /> */}
       {/* <AddToDo /> */}
-      <BrandFilter />
+      {/* <BrandFilter /> */}
+      <ToDOList />
     </div>
   );
 }
