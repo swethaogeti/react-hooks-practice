@@ -12,6 +12,7 @@ import { DarkMode } from "./useState-excercise/DarkMode";
 import { AddToDo } from "./useState-excercise/AddToDo";
 import { BrandFilter } from "./practiceSet-1/BrandFilter";
 import { ToDOList } from "./practiceSet-1/ToDoList";
+import { DisplayHelloHi } from "./practiceSet-1/DisplayHelloHi";
 export default function App() {
   return (
     <div className="App">
@@ -27,7 +28,8 @@ export default function App() {
       {/* <DarkMode /> */}
       {/* <AddToDo /> */}
       {/* <BrandFilter /> */}
-      <ToDOList />
+      {/* <ToDOList /> */}
+      <DisplayHelloHi />
     </div>
   );
 }
