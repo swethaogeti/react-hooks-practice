@@ -17,6 +17,7 @@ import { CarList } from "./practiceSet-1/CarList";
 import { SubcribeEmail } from "./practiceSet-1/SubcribeEmail";
 import { RemoveItem } from "./practiceSet-1/RemoveItem";
 import { LowerUpperLimit } from "./practiceSet-1/LowerUpperLimit";
+import { ProductCount } from "./practiceSet-1/ProductCount";
 export default function App() {
   return (
     <div className="App">
@@ -37,7 +38,8 @@ export default function App() {
       {/* <CarList /> */}
       {/* <SubcribeEmail /> */}
       {/* <RemoveItem /> */}
-      <LowerUpperLimit />
+      {/* <LowerUpperLimit /> */}
+      <ProductCount />
     </div>
   );
 }

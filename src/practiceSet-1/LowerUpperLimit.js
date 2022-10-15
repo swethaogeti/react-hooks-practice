@@ -31,7 +31,7 @@ export const LowerUpperLimit = () => {
 
   const [lower, setLower] = useState(0);
   const [upper, setUpper] = useState(0);
-  console.log(lower);
+
   return (
     <div>
       <h4>Lower Limit</h4>
@@ -58,7 +58,9 @@ export const LowerUpperLimit = () => {
               style={{ display: "flex", alignItems: "center" }}
             >
               <p>{item.item}-</p>
-              <p>{item.price}$</p>
+              <p>({item.price})$</p>
+              <button>+</button>
+              <span>4</span> <button>-</button>
             </div>
           );
         })}
