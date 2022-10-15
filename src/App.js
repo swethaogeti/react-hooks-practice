@@ -15,6 +15,7 @@ import { ToDOList } from "./practiceSet-1/ToDoList";
 import { DisplayHelloHi } from "./practiceSet-1/DisplayHelloHi";
 import { CarList } from "./practiceSet-1/CarList";
 import { SubcribeEmail } from "./practiceSet-1/SubcribeEmail";
+import { RemoveItem } from "./practiceSet-1/RemoveItem";
 export default function App() {
   return (
     <div className="App">
@@ -33,7 +34,8 @@ export default function App() {
       {/* <ToDOList /> */}
       {/* <DisplayHelloHi /> */}
       {/* <CarList /> */}
-      <SubcribeEmail />
+      {/* <SubcribeEmail /> */}
+      <RemoveItem />
     </div>
   );
 }
