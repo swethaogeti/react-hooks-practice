@@ -25,14 +25,23 @@ export const RemoveItem = () => {
   ];
 
   const [langList, setLangList] = useState(data);
-
-  const removeItem = (id) => {
-    setLangList((prev) => prev.filter((item) => item.id !== id));
+  const [deletedList, setDeletedList] = useState([]);
+  const removeItem = (ele) => {
+    setLangList((prev) => prev.filter((item) => item.id !== ele.id));
+    setDeletedList((prev) => [ele, ...prev]);
+  };
+  console.log(deletedList);
+  const undoRemove = () => {
+    setLangList((prev) => [...prev, deletedList[0]]);
+    setDeletedList((prevDeleted) => prevDeleted.slice(1));
   };
 
   return (
     <div>
       <h2>list if languages</h2>
+      {deletedList.length > 0 && (
+        <button onClick={() => undoRemove()}>Undo</button>
+      )}
       {langList.length > 0 ? (
         langList?.map((ele) => {
           return (
@@ -40,7 +49,7 @@ export const RemoveItem = () => {
               <h4>{ele.item}</h4>
               <button
                 style={{ padding: "2px", height: "1.4rem" }}
-                onClick={() => removeItem(ele.id)}
+                onClick={() => removeItem(ele)}
               >
                 Remove
               </button>
