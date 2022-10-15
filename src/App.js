@@ -16,6 +16,7 @@ import { DisplayHelloHi } from "./practiceSet-1/DisplayHelloHi";
 import { CarList } from "./practiceSet-1/CarList";
 import { SubcribeEmail } from "./practiceSet-1/SubcribeEmail";
 import { RemoveItem } from "./practiceSet-1/RemoveItem";
+import { LowerUpperLimit } from "./practiceSet-1/LowerUpperLimit";
 export default function App() {
   return (
     <div className="App">
@@ -35,7 +36,8 @@ export default function App() {
       {/* <DisplayHelloHi /> */}
       {/* <CarList /> */}
       {/* <SubcribeEmail /> */}
-      <RemoveItem />
+      {/* <RemoveItem /> */}
+      <LowerUpperLimit />
     </div>
   );
 }
