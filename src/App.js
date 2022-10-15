@@ -14,6 +14,7 @@ import { BrandFilter } from "./practiceSet-1/BrandFilter";
 import { ToDOList } from "./practiceSet-1/ToDoList";
 import { DisplayHelloHi } from "./practiceSet-1/DisplayHelloHi";
 import { CarList } from "./practiceSet-1/CarList";
+import { SubcribeEmail } from "./practiceSet-1/SubcribeEmail";
 export default function App() {
   return (
     <div className="App">
@@ -31,7 +32,8 @@ export default function App() {
       {/* <BrandFilter /> */}
       {/* <ToDOList /> */}
       {/* <DisplayHelloHi /> */}
-      <CarList />
+      {/* <CarList /> */}
+      <SubcribeEmail />
     </div>
   );
 }
