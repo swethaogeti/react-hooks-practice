@@ -18,6 +18,7 @@ import { SubcribeEmail } from "./practiceSet-1/SubcribeEmail";
 import { RemoveItem } from "./practiceSet-1/RemoveItem";
 import { LowerUpperLimit } from "./practiceSet-1/LowerUpperLimit";
 import { ProductCount } from "./practiceSet-1/ProductCount";
+import { DisableEdit } from "./practiceSet-1/DisableEdit";
 export default function App() {
   return (
     <div className="App">
@@ -39,7 +40,8 @@ export default function App() {
       {/* <SubcribeEmail /> */}
       {/* <RemoveItem /> */}
       {/* <LowerUpperLimit /> */}
-      <ProductCount />
+      {/* <ProductCount /> */}
+      <DisableEdit />
     </div>
   );
 }
