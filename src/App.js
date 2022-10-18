@@ -19,6 +19,7 @@ import { RemoveItem } from "./practiceSet-1/RemoveItem";
 import { LowerUpperLimit } from "./practiceSet-1/LowerUpperLimit";
 import { ProductCount } from "./practiceSet-1/ProductCount";
 import { DisableEdit } from "./practiceSet-1/DisableEdit";
+import { AscDesSort } from "./practiceSet-1/AscDesSort";
 export default function App() {
   return (
     <div className="App">
@@ -41,7 +42,8 @@ export default function App() {
       {/* <RemoveItem /> */}
       {/* <LowerUpperLimit /> */}
       {/* <ProductCount /> */}
-      <DisableEdit />
+      {/* <DisableEdit /> */}
+      <AscDesSort />
     </div>
   );
 }
