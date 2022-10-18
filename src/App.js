@@ -21,6 +21,7 @@ import { ProductCount } from "./practiceSet-1/ProductCount";
 import { DisableEdit } from "./practiceSet-1/DisableEdit";
 import { AscDesSort } from "./practiceSet-1/AscDesSort";
 import { UpdatePrice } from "./practiceSet-1/UpdatePrice";
+import { SelectOption } from "./practiceSet-1/SelectOption";
 export default function App() {
   return (
     <div className="App">
@@ -45,7 +46,8 @@ export default function App() {
       {/* <ProductCount /> */}
       {/* <DisableEdit /> */}
       {/* <AscDesSort /> */}
-      <UpdatePrice />
+      {/* <UpdatePrice /> */}
+      <SelectOption />
     </div>
   );
 }
