@@ -23,6 +23,7 @@ import { AscDesSort } from "./practiceSet-1/AscDesSort";
 import { UpdatePrice } from "./practiceSet-1/UpdatePrice";
 import { SelectOption } from "./practiceSet-1/SelectOption";
 import { MirrorIt } from "./practiceSet-1/MirrorIt";
+import { PracReducer } from "./practiceSet-1/PracReducer";
 export default function App() {
   return (
     <div className="App">
@@ -49,7 +50,8 @@ export default function App() {
       {/* <AscDesSort /> */}
       {/* <UpdatePrice /> */}
       {/* <SelectOption /> */}
-      <MirrorIt />
+      {/* <MirrorIt /> */}
+      <PracReducer />
     </div>
   );
 }
