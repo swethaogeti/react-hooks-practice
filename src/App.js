@@ -22,6 +22,7 @@ import { DisableEdit } from "./practiceSet-1/DisableEdit";
 import { AscDesSort } from "./practiceSet-1/AscDesSort";
 import { UpdatePrice } from "./practiceSet-1/UpdatePrice";
 import { SelectOption } from "./practiceSet-1/SelectOption";
+import { MirrorIt } from "./practiceSet-1/MirrorIt";
 export default function App() {
   return (
     <div className="App">
@@ -47,7 +48,8 @@ export default function App() {
       {/* <DisableEdit /> */}
       {/* <AscDesSort /> */}
       {/* <UpdatePrice /> */}
-      <SelectOption />
+      {/* <SelectOption /> */}
+      <MirrorIt />
     </div>
   );
 }
