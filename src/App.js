@@ -24,6 +24,9 @@ import { UpdatePrice } from "./practiceSet-1/UpdatePrice";
 import { SelectOption } from "./practiceSet-1/SelectOption";
 import { MirrorIt } from "./practiceSet-1/MirrorIt";
 import { PracReducer } from "./practiceSet-1/PracReducer";
+import { TodoTest } from "./TestSolve/TodoTest";
+import { StackTest } from "./TestSolve/StackTest";
+import { DebounceCustom } from "./TestSolve/DebounceCustom";
 export default function App() {
   return (
     <div className="App">
@@ -51,7 +54,10 @@ export default function App() {
       {/* <UpdatePrice /> */}
       {/* <SelectOption /> */}
       {/* <MirrorIt /> */}
-      <PracReducer />
+      {/* <PracReducer /> */}
+      {/* <TodoTest /> */}
+      <StackTest />
+      {/* <DebounceCustom/> */}
     </div>
   );
 }
