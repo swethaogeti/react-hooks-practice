@@ -182,6 +182,7 @@ export const Subcription = () => {
   const [profile, setProfile] = useState();
   const [error, setError] = useState("");
   const handleProfileData = (user) => {
+    console.log(user);
     if (user.password.length > 9) {
       setProfile(user);
       setError("");
