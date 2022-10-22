@@ -27,6 +27,7 @@ import { PracReducer } from "./practiceSet-1/PracReducer";
 import { TodoTest } from "./TestSolve/TodoTest";
 import { StackTest } from "./TestSolve/StackTest";
 import { DebounceCustom } from "./TestSolve/DebounceCustom";
+import { ClothingStock } from "./practiceSet-1/ClothingStock";
 export default function App() {
   return (
     <div className="App">
@@ -56,8 +57,9 @@ export default function App() {
       {/* <MirrorIt /> */}
       {/* <PracReducer /> */}
       {/* <TodoTest /> */}
-      <StackTest />
+      {/* <StackTest /> */}
       {/* <DebounceCustom/> */}
+      <ClothingStock />
     </div>
   );
 }
