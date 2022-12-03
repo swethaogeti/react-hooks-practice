@@ -30,6 +30,8 @@ import { DebounceCustom } from "./TestSolve/DebounceCustom";
 import { ClothingStock } from "./practiceSet-1/ClothingStock";
 import { Subcription } from "./practiceSet-1/Subcription";
 import { ReverseSentence } from "./practiceSet-1/ReverseSentence";
+import { UseStateHook } from "./PracticeAllHooks/UseStateHook";
+
 export default function App() {
   return (
     <div className="App">
@@ -64,7 +66,8 @@ export default function App() {
       {/* <ClothingStock /> */}
 
       {/* <Subcription /> */}
-      <ReverseSentence />
+      {/* <ReverseSentence /> */}
+      <UseStateHook />
     </div>
   );
 }
